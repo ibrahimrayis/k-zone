@@ -62,9 +62,15 @@ export const ContactSection: React.FC = () => {
       href: `tel:${t('phone2')}`,
     },
     {
+      icon: Phone,
+      title: "Egypt",
+      value: "+20 10 03098105",
+      href: "tel:+201003098105",
+    },
+    {
       icon: MapPin,
       title: "Regions",
-      value: "Turkey • Sudan • China",
+      value: "Turkey • Sudan • Egypt • China",
       href: "#",
     },
   ];
