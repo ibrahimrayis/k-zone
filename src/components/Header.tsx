@@ -33,9 +33,9 @@ export const Header: React.FC = () => {
           {/* Logo */}
           <div className="flex items-center space-x-3">
             <img 
-              src="/lovable-uploads/aeaa84a7-a1ba-48e6-8647-9f97304fcf0b.png" 
+              src="/lovable-uploads/520d0835-88ab-4fed-9d0b-e42e59971c83.png" 
               alt="K-ZONE Trading Services" 
-              className="h-10 w-auto"
+              className="h-16 w-auto"
             />
           </div>
 
