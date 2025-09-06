@@ -1,6 +1,6 @@
 import React from 'react';
 import { useTranslation } from '@/hooks/useTranslation';
-import { Mail, Phone, Linkedin } from 'lucide-react';
+import { Mail, Phone, Linkedin, Facebook, Instagram } from 'lucide-react';
 // Logo will use text fallback for now
 
 export const Footer: React.FC = () => {
@@ -85,31 +85,51 @@ export const Footer: React.FC = () => {
                 <Phone className="h-4 w-4" />
                 {t('phone2')}
               </a>
+              <a
+                href="tel:+201003098105"
+                className="flex items-center gap-2 text-primary-foreground/80 hover:text-primary-foreground transition-smooth text-sm"
+                dir="ltr"
+              >
+                <Phone className="h-4 w-4" />
+                +20 10 03098105
+              </a>
             </div>
 
             {/* Social Media */}
             <div className="mt-6">
               <h4 className="text-sm font-semibold mb-3">{t('followUs')}</h4>
-              <div className="flex gap-3">
-                <a
-                  href="#"
-                  className="w-8 h-8 bg-primary-foreground/10 rounded-full flex items-center justify-center hover:bg-primary-foreground/20 transition-smooth"
-                >
-                  <Linkedin className="h-4 w-4" />
-                </a>
-                <a
-                  href={`mailto:${t('email')}`}
-                  className="w-8 h-8 bg-primary-foreground/10 rounded-full flex items-center justify-center hover:bg-primary-foreground/20 transition-smooth"
-                >
-                  <Mail className="h-4 w-4" />
-                </a>
-                <a
-                  href={`https://wa.me/${t('phone1').replace(/[^\d]/g, '')}`}
-                  className="w-8 h-8 bg-primary-foreground/10 rounded-full flex items-center justify-center hover:bg-primary-foreground/20 transition-smooth"
-                >
-                  <Phone className="h-4 w-4" />
-                </a>
-              </div>
+               <div className="flex gap-3">
+                 <a
+                   href="#"
+                   className="w-8 h-8 bg-primary-foreground/10 rounded-full flex items-center justify-center hover:bg-primary-foreground/20 transition-smooth"
+                 >
+                   <Facebook className="h-4 w-4" />
+                 </a>
+                 <a
+                   href="#"
+                   className="w-8 h-8 bg-primary-foreground/10 rounded-full flex items-center justify-center hover:bg-primary-foreground/20 transition-smooth"
+                 >
+                   <Instagram className="h-4 w-4" />
+                 </a>
+                 <a
+                   href="#"
+                   className="w-8 h-8 bg-primary-foreground/10 rounded-full flex items-center justify-center hover:bg-primary-foreground/20 transition-smooth"
+                 >
+                   <Linkedin className="h-4 w-4" />
+                 </a>
+                 <a
+                   href={`mailto:${t('email')}`}
+                   className="w-8 h-8 bg-primary-foreground/10 rounded-full flex items-center justify-center hover:bg-primary-foreground/20 transition-smooth"
+                 >
+                   <Mail className="h-4 w-4" />
+                 </a>
+                 <a
+                   href={`https://wa.me/${t('phone1').replace(/[^\d]/g, '')}`}
+                   className="w-8 h-8 bg-primary-foreground/10 rounded-full flex items-center justify-center hover:bg-primary-foreground/20 transition-smooth"
+                 >
+                   <Phone className="h-4 w-4" />
+                 </a>
+               </div>
             </div>
           </div>
         </div>
