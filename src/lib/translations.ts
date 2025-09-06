@@ -17,7 +17,7 @@ export const translations = {
     // Contact Info
     email: "info@k-zone.live",
     phone1: "+90 544 922 2499",
-    phone2: "+249 110 000 016",
+    phone2: "+249 92 050 0000",
 
     // Solutions
     solutionsTitle: "Our Solutions",
@@ -62,6 +62,10 @@ export const translations = {
     sendMessage: "Send Message",
     getInTouch: "Get in Touch",
 
+    // Branches and Partners
+    branchesPartners: "Branches and Partners:",
+    branchesPartnersLocations: "PortSudan, Kassala, Gadarif, Atbara, Dongla, Madani, Sinja, Damazin, Rabak, Elobaid",
+
     // Footer
     tagline: "Smart Energy. Smart Future.",
     quickLinks: "Quick Links",
@@ -86,7 +90,7 @@ export const translations = {
     // Contact Info
     email: "info@k-zone.live",
     phone1: "+90 544 922 2499",
-    phone2: "+249 110 000 016",
+    phone2: "+249 92 050 0000",
 
     // Solutions
     solutionsTitle: "حلولنا",
@@ -131,6 +135,10 @@ export const translations = {
     sendMessage: "إرسال الرسالة",
     getInTouch: "تواصل معنا",
 
+    // Branches and Partners
+    branchesPartners: "فروعنا وشركاءنا:",
+    branchesPartnersLocations: "بورتسودان، كسلا، القضارف، عطبرة، دنقلا، مدني، سنجة، الدمازين، ربك، الابيض",
+
     // Footer - Updated Arabic text
     tagline: "طاقة ذكية. مستقبل ذكي.",
     quickLinks: "روابط سريعة",
@@ -155,7 +163,7 @@ export const translations = {
     // Contact Info
     email: "info@k-zone.live",
     phone1: "+90 544 922 2499",
-    phone2: "+249 110 000 016",
+    phone2: "+249 92 050 0000",
 
     // Solutions
     solutionsTitle: "Çözümlerimiz",
@@ -199,6 +207,10 @@ export const translations = {
     message: "Mesaj",
     sendMessage: "Mesaj Gönder",
     getInTouch: "İletişime Geç",
+
+    // Branches and Partners
+    branchesPartners: "Şube ve Ortaklar:",
+    branchesPartnersLocations: "PortSudan, Kassala, Gadarif, Atbara, Dongla, Madani, Sinja, Damazin, Rabak, Elobaid",
 
     // Footer
     tagline: "Akıllı Enerji. Akıllı Gelecek.",

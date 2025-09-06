@@ -2,8 +2,11 @@ import React from 'react';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { MapPin, Mail, ExternalLink } from 'lucide-react';
+import { useTranslation } from '@/hooks/useTranslation';
 
 const ServiceLocations: React.FC = () => {
+  const { t } = useTranslation();
+  
   return (
     <section className="py-16 px-4 bg-muted/50">
       <div className="max-w-6xl mx-auto">
@@ -32,6 +35,11 @@ const ServiceLocations: React.FC = () => {
                 <p className="text-muted-foreground">2, 1/6, West to Officers Club, Khartoum 2, Sudan</p>
               </div>
 
+              <div>
+                <h3 className="font-semibold text-lg mb-2">{t('branchesPartners' as any)}</h3>
+                <p className="text-muted-foreground leading-relaxed">{t('branchesPartnersLocations' as any)}</p>
+              </div>
+
               <div className="pt-4 border-t">
                 <div className="flex items-center gap-2 mb-3">
                   <Mail className="h-4 w-4 text-primary" />
@@ -43,7 +51,7 @@ const ServiceLocations: React.FC = () => {
               <Button 
                 variant="outline" 
                 className="w-full"
-                onClick={() => window.open('https://maps.app.goo.gl/pLLtkNkqVGU2Vp7o9', '_blank')}
+                onClick={() => window.open('https://maps.app.goo.gl/P9hMNtzapiPbLq1QA?g_st=awb', '_blank')}
               >
                 <ExternalLink className="h-4 w-4 mr-2" />
                 View on Google Maps
@@ -55,7 +63,7 @@ const ServiceLocations: React.FC = () => {
           <Card>
             <CardContent className="p-0">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3847.4982!2d32.5450!3d15.5150!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTXCsDMwJzU0LjAiTiAzMsKwMzInNDIuMCJF!5e0!3m2!1sen!2s!4v1"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3845.7223948991178!2d32.53283877514399!3d15.55425648457949!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x168e8f1c7c4c4c4d%3A0x0!2zMTXCsDMzJzE1LjMiTiAzMsKwMzInMDAuMCJF!5e0!3m2!1sen!2s!4v1"
                 width="100%"
                 height="400"
                 style={{ border: 0 }}
